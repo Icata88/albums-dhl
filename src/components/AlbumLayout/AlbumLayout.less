@@ -1,0 +1,40 @@
+.album-layout {
+    .site-layout {
+        margin: 0;
+        @media screen and (min-width: 768px) {
+          margin-left: 200px;
+        }
+      }
+      .ant-layout-sider {
+          display: none;
+          @media screen and (min-width: 768px) {
+            display: block;
+          }
+      }
+      .trigger-collapse-mobile-wrapper {
+        position: relative;
+        flex: 0 0 0px;
+        max-width: 0px;
+        min-width: 0px;
+        width: 0px;
+        @media screen and (min-width: 768px) {
+          display: none;
+        }
+      }
+      .trigger-collapse-mobile {
+        position: fixed;
+        top: 64px;
+        // right: -36px;
+        z-index: 1;
+        width: 36px;
+        height: 42px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 42px;
+        text-align: center;
+        background: #001529;
+        border-radius: 0 2px 2px 0;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+}

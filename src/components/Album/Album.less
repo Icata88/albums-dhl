@@ -1,0 +1,33 @@
+.album {
+    // .ant-list-items {
+    //     @media screen and (min-width: 768px) {
+    //         max-width: 648px;
+    //         margin: 0 auto;
+    //     }
+    // }
+    .ant-list-pagination {
+        text-align: center;
+    }
+    .go-back-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        @media screen and (min-width: 768px) {
+            padding-left: 24px;
+            justify-content: flex-start;
+        }
+        .anticon {
+            cursor: pointer;
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .go-back-text {
+            font-size: 19px;
+            line-height: 30px;
+            padding-left: 10px;
+        }
+    }
+}
